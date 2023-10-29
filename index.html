@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mythili portfolio</title>
+<style>
+body
+{
+    font-family:Arial,sans-serief;
+    margin:0;
+    padding:0;
+    background-color:#f0f0f0;
+}
+header
+{
+   background-color:sandal;
+   color:black;
+   text-align:center;
+   padding:2rem 0;
+   position:relative;
+}
+.header-content bh1
+{
+ font-size:2.5rem;
+}
+nav
+{
+  background-color:white;
+  color:black;
+  text-align:center;
+}
+nav ul
+{
+list-style-type:none;
+padding:10px;
+}
+nav ul li
+{
+display:inline;
+margin:0 20px;
+}
+nav ul li a 
+{
+   text-decoration:none;
+   color:black;
+}
+.section-content
+{
+  background-color:sandal;
+  padding:2rem;
+  margin:1rem;
+  border-radius:20px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.download-button
+{
+background-color:sandal;
+color:purple;
+padding:0.5rem 1rem;
+text-decoration:none;
+border-radius:20px;
+display:inline-block;
+margin-top:10px;
+}
+.download-button:hover{
+background-color:sandal;
+}
+footer
+{
+text-align:center;
+padding:1rem 0;
+background-color:sandal;
+color:black;
+}
+ul
+{
+list-style-type:lower-roman;
+padding-left:20px;
+}
+</style>
+</head>
+<body>
+ <header>
+    <div class="header-content">
+    <h1>MYTHILI</h1>
+    <p>Student</p>
+</div>
+</header>
+<nav>
+   <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#hobby">Hobby</a></li>
+      <li><a href="#resume">Resume</a></li>
+   </ul>
+</nav>
+<section id="about">
+   <div class="section-content">
+   <h2>About Me</h2>
+   <p>Hello everyone,I am a Computer science student.</p>
+   <p><b>"Nothing teaches better than our own experience"</b></p>
+   <p><b>"Be the best version of u..."</b></p> 
+</div>
+</section>
+<section id="education">
+ <div class="section-content">
+<h2>Education</h2>
+<p>Completed My Schooling,Doing BSC.,ComputerScience at Manonmaniam Sundaranar University.</p>
+</div>
+</section>
+<section id="skills">
+<div class="section-content">
+<h2>Skills</h2>
+ <p>*Python</p>
+ <p>*Webpage Development</p>
+ <p>*C++</p>
+ <p>*Machine Learning</p>
+</div>
+</section>
+<section id="project">
+<div class="section-content">
+<h2>Project</h2>
+<ul>
+<li><a href="file:///C:/Users/Mythili/Scriptinglab/parlour.html">Project1</a></li>
+</ul>
+</div>
+</section>
+<section id="hobby">
+<div class="section-content">
+<h2>Hobby</h2>
+<p>*Reading stories</p>
+<p>*Listening Music</p>
+<p>*Travelling</p>
+<p>*watching travel blogs</p>
+</div>
+</section>
+<section id="resume">
+<center>
+  <div class="section-content">
+  <h2>Resume</h2>
+<a href="https://docs.google.com/document/d/e/2PACX-1vTUWbwIKN6tjwmtcnr24JisXuZ8g6uX0vczs0y_csf7lvEK0y2Gutxn_ivfT8xsRsqnRHiACLMOELd5/pub"class="download-button"><b>Download</b></a>
+</div>
+</center>
+</section>
+<footer>
+<p>&copy;2023 Mythili</p>
+</footer>
+<script>
+   document.querySelectorAll('a[href="#"]').forEach(anchor=>{
+anchor.addEventListener('click',function(e){
+e.preventDefault();
+const targetId=this.getAttribute('href').substring(1);
+const targetId=document.getElementById(targetid);
+if(targetElement)
+{
+window.scroollTo
+({
+   top:targetElement.offsetTop,
+   behaviour:'smooth'
+});
+}
+});
+});
+</script>
+</body>
+</html>
